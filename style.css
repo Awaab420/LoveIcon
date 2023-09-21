@@ -1,0 +1,41 @@
+#container {
+    height: 40vh;
+    width: 25%;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px grey;
+}
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+#container i {
+    color: red;
+    font-size: 105px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0.65;
+    transition-duration: 1s;
+
+}
+h3 {
+    position: absolute;
+    right: 34%;
+    bottom: 20%;
+    font-size: 02rem;
+}
